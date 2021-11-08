@@ -1,0 +1,76 @@
+body{
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    float: left;
+}
+
+ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li, li a, .dropdownbtn{
+    display: block;
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+li a:hover, .dropdown:hover .dropdownbtn{
+    background-color: blue;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: red;
+}
+
+.dropdown-content a:hover{
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+form{
+  display: block;
+
+
+
+}
+
+form label{
+    align-content: center;
+    color: green;
+    font-weight: bolder;
+}
+
+form input{
+    width: 40%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top:1%;
+    margin-bottom:1%;
+    font-size: large;
+
+}
+
+#sbtn:hover{
+    color: white;
+    background-color: rgb(47, 2, 247);
+
+}
+
+#sbtn{
+    margin-top: 10px;
+    border-style: groove;
+}
